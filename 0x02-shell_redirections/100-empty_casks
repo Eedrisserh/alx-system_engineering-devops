@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./ -type d f -not -empty | wc-1
+find /tmp -type d f -empty ".*"
