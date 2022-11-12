@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Prints out the contents of the current
+# directory for using a for loop
+
+# For contents in the current dir, echo the
+# contents while simulatenously breaking up
+# the lines by the '-' and printing out the
+# second half
+for contents in *;
+do
+	echo "$contents" | cut -d '-' -f2
+done
