@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Hello From The Other Side, This Line Wasted A Ton Of Time
+
+# Push the PID to the given location
+FILE="/var/run/holbertonscript.pid"
+sudo touch "$FILE"
+echo $$ > "$FILE"
+
+# Setup Trap Definitions
+trap 'echo I hate the kill command && sudo rm $FILE && exit' SIGTERM
+trap 'sudo rm $FILE && exit' SIGQUIT
+trap "echo Y U no love me?!" SIGINT
+
+i=0
+while [ $i -eq 0 ];
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
