@@ -3,7 +3,7 @@
 # and whether or not a file may is
 # empty or regular file
 
-FILE=holbertonschool
+FILE=school
 
 # CHECK IF THE FILE EXISTS
 if [ -e "$FILE" ]; then
