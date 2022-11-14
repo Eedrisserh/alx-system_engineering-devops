@@ -6,6 +6,6 @@ i=0
 # Notes : While the count $i is less than (-lt), run the loop
 while [ $i -lt 10 ]
 do
-	echo "Holberton School"
+	echo "Best School"
 	((i++))
 done
