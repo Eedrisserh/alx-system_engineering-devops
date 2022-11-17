@@ -1,1 +1,2 @@
-# Regular expressions
+# Regular expressions using Ruby
+# @Author: Idriss Ibrahim Dodo
